@@ -9,3 +9,37 @@
 
 My name is anthony gonsalvis.
 adding new lines 
+import pandas as pd
+fortune = pd.read_csv("D:\\sc00452363\\ATT\\Python_course_file\\pandas\\fortune1000.csv",index_col ='Rank')
+sector = fortune.groupby("Sector")
+
+# creating an empty data frame whose  structure is like structure of dataframe fortune.
+
+df = pd.DataFrame(columns = fortune.columns)
+df1 = pd.DataFrame(columns = fortune.columns)
+
+# Now write code to find the  row with highest revienew across all sectors and store that in above created empty dataframe.
+# Now write code to find the  row with highest and second highest revienew across all sectors and store that in above created empty dataframe.
+
+for sector,data in sector: # here sector is dataframegroup by object and data is a variable 
+      highest_revenue_company_in_group = data.nlargest(1,"Revenue") # nlargest(number of larges  values want , the column name )
+      highest_and_second_highest_sector_wise = data.nlargest(2, "Revenue")
+      df = df.append(highest_revenue_company_in_group)
+      df1 = df1.append(highest_and_second_highest_sector_wise)
+len(df) # for 21 different  sector i am getting 21 different rows .
+len(df1)
+    
+# Find city waise highest revenue values and store respective row in a dataframe .
+#Step1`: Create an empty dataframe
+df_city = pd.DataFrame(columns = fortune.columns)
+#Step2 : Create a gropybyDataframe for city from dataframe fortune
+city =  fortune.groupby("Location")
+#Step3 : use for loop to iterate over all groupbydataframe of location , whihic is city and then find the  location that means city
+# with highest revenue
+for city,  data in city:
+     city_wise_larges_revenue = data.nlargest(1,"Revenue")
+     df_city = df_city.append(city_wise_larges_revenue)
+df_city
+
+
+
