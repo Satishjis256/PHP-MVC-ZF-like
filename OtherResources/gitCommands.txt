@@ -1,0 +1,246 @@
+satish@DESKTOP-0N9C6SV MINGW64 ~
+$ cd D:/git_dir
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir
+$ ls
+PHP-MVC-ZF-like/  abc.txt  sparlAllExample/
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir
+$ git add ^C
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir
+$ git add sparlAllExample
+fatal: not a git repository (or any of the parent directories): .git
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir
+$ git init
+Initialized empty Git repository in D:/git_dir/.git/
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir (master)
+$ git add sparlAllExample
+warning: LF will be replaced by CRLF in sparlAllExample/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/mainClass.scala.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in sparlAllExample/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory.scala.
+The file will have its original line endings in your working directory
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir (master)
+$ git commit
+[master (root-commit) 7e128af] All new files adding to github
+ 15 files changed, 200 insertions(+)
+ create mode 100644 sparlAllExample/.cache-main
+ create mode 100644 sparlAllExample/.classpath
+ create mode 100644 sparlAllExample/.project
+ create mode 100644 sparlAllExample/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 sparlAllExample/.settings/org.eclipse.m2e.core.prefs
+ create mode 100644 sparlAllExample/.settings/org.scala-ide.sdt.core.prefs
+ create mode 100644 sparlAllExample/pom.xml
+ create mode 100644 sparlAllExample/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/mainClass.scala
+ create mode 100644 sparlAllExample/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory.scala
+ create mode 100644 sparlAllExample/src/main/resources/dev.properties
+ create mode 100644 sparlAllExample/target/classes/com/satish/spark/sparlAllExamplePac_PKG/mainClass$.class
+ create mode 100644 sparlAllExample/target/classes/com/satish/spark/sparlAllExamplePac_PKG/mainClass.class
+ create mode 100644 sparlAllExample/target/classes/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory$.class
+ create mode 100644 sparlAllExample/target/classes/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory.class
+ create mode 100644 sparlAllExample/target/classes/dev.properties
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir (master)
+$ cd D:\git_dir\PHP-MVC-ZF-like
+bash: cd: D:git_dirPHP-MVC-ZF-like: No such file or directory
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir (master)
+$ ls
+PHP-MVC-ZF-like/  abc.txt  sparlAllExample/
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir (master)
+$ pwd
+/d/git_dir
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir (master)
+$ cd PHP-MVC-ZF-like
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git init
+Reinitialized existing Git repository in D:/git_dir/PHP-MVC-ZF-like/.git/
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ add sparlAllExample
+bash: add: command not found
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git add sparlAllExample
+warning: LF will be replaced by CRLF in sparlAllExample/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/mainClass.scala.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in sparlAllExample/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory.scala.
+The file will have its original line endings in your working directory
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git commit -m
+error: switch `m' requires a value
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git commit -m "pushing my spark code"
+[master 11ce1cb] pushing my spark code
+ 15 files changed, 200 insertions(+)
+ create mode 100644 sparlAllExample/.cache-main
+ create mode 100644 sparlAllExample/.classpath
+ create mode 100644 sparlAllExample/.project
+ create mode 100644 sparlAllExample/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 sparlAllExample/.settings/org.eclipse.m2e.core.prefs
+ create mode 100644 sparlAllExample/.settings/org.scala-ide.sdt.core.prefs
+ create mode 100644 sparlAllExample/pom.xml
+ create mode 100644 sparlAllExample/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/mainClass.scala
+ create mode 100644 sparlAllExample/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory.scala
+ create mode 100644 sparlAllExample/src/main/resources/dev.properties
+ create mode 100644 sparlAllExample/target/classes/com/satish/spark/sparlAllExamplePac_PKG/mainClass$.class
+ create mode 100644 sparlAllExample/target/classes/com/satish/spark/sparlAllExamplePac_PKG/mainClass.class
+ create mode 100644 sparlAllExample/target/classes/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory$.class
+ create mode 100644 sparlAllExample/target/classes/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory.class
+ create mode 100644 sparlAllExample/target/classes/dev.properties
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git push origin master
+Enumerating objects: 34, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (33/33), 18.18 KiB | 1.14 MiB/s, done.
+Total 33 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Satishjis256/PHP-MVC-ZF-like.git
+   7bdec6c..11ce1cb  master -> master
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git add sparlAllExample
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git commit -m "New changes adding"
+[master aa35c4a] New changes adding
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 sparlAllExample/src/main/abcdefgh.txt.txt
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git push origin master
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (8/8), 617 bytes | 205.00 KiB/s, done.
+Total 8 (delta 1), reused 1 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Satishjis256/PHP-MVC-ZF-like.git
+   11ce1cb..aa35c4a  master -> master
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ add sparlAllExample_workingone
+bash: add: command not found
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git add sparlAllExample_workingone
+fatal: pathspec 'sparlAllExample_workingone' did not match any files
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git add A
+fatal: pathspec 'A' did not match any files
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git add sparlAllExample_workingone
+warning: LF will be replaced by CRLF in sparlAllExample_workingone/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/Property.scala.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in sparlAllExample_workingone/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/mainClass.scala.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in sparlAllExample_workingone/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory.scala.
+The file will have its original line endings in your working directory
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git commit -m "Uploading working file"
+[master 99e8ff5] Uploading working file
+ 23 files changed, 266 insertions(+)
+ create mode 100644 sparlAllExample_workingone/.cache-main
+ create mode 100644 sparlAllExample_workingone/.classpath
+ create mode 100644 sparlAllExample_workingone/.project
+ create mode 100644 sparlAllExample_workingone/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 sparlAllExample_workingone/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 sparlAllExample_workingone/.settings/org.eclipse.m2e.core.prefs
+ create mode 100644 sparlAllExample_workingone/.settings/org.scala-ide.sdt.core.prefs
+ create mode 100644 sparlAllExample_workingone/pom.xml
+ create mode 100644 sparlAllExample_workingone/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/Property.scala
+ create mode 100644 sparlAllExample_workingone/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/mainClass.scala
+ create mode 100644 sparlAllExample_workingone/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory.scala
+ create mode 100644 sparlAllExample_workingone/src/main/resources/dev.properties
+ create mode 100644 sparlAllExample_workingone/src/main/resources/prod.properties
+ create mode 100644 sparlAllExample_workingone/src/main/resources/test.properties
+ create mode 100644 sparlAllExample_workingone/target/classes/com/satish/spark/sparlAllExamplePac_PKG/Property$Property$.class
+ create mode 100644 sparlAllExample_workingone/target/classes/com/satish/spark/sparlAllExamplePac_PKG/Property.class
+ create mode 100644 sparlAllExample_workingone/target/classes/com/satish/spark/sparlAllExamplePac_PKG/mainClass$.class
+ create mode 100644 sparlAllExample_workingone/target/classes/com/satish/spark/sparlAllExamplePac_PKG/mainClass.class
+ create mode 100644 sparlAllExample_workingone/target/classes/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory$.class
+ create mode 100644 sparlAllExample_workingone/target/classes/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory.class
+ create mode 100644 sparlAllExample_workingone/target/classes/dev.properties
+ create mode 100644 sparlAllExample_workingone/target/classes/prod.properties
+ create mode 100644 sparlAllExample_workingone/target/classes/test.properties
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git push
+fatal: unable to access 'https://github.com/Satishjis256/PHP-MVC-ZF-like.git/': Could not resolve host: github.com
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git config --global user.name "satishjis256@gmial.com"
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git config --global user.email "Work#2bm"
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git init
+Reinitialized existing Git repository in D:/git_dir/PHP-MVC-ZF-like/.git/
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    sparlAllExample/.cache-main
+        deleted:    sparlAllExample/.classpath
+        deleted:    sparlAllExample/.project
+        deleted:    sparlAllExample/.settings/org.eclipse.jdt.core.prefs
+        deleted:    sparlAllExample/.settings/org.eclipse.m2e.core.prefs
+        deleted:    sparlAllExample/.settings/org.scala-ide.sdt.core.prefs
+        deleted:    sparlAllExample/pom.xml
+        deleted:    sparlAllExample/src/main/abcdefgh.txt.txt
+        deleted:    sparlAllExample/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/mainClass.scala
+        deleted:    sparlAllExample/src/main/java/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory.scala
+        deleted:    sparlAllExample/src/main/resources/dev.properties
+        deleted:    sparlAllExample/target/classes/com/satish/spark/sparlAllExamplePac_PKG/mainClass$.class
+        deleted:    sparlAllExample/target/classes/com/satish/spark/sparlAllExamplePac_PKG/mainClass.class
+        deleted:    sparlAllExample/target/classes/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory$.class
+        deleted:    sparlAllExample/target/classes/com/satish/spark/sparlAllExamplePac_PKG/sparkDriverFactory.class
+        deleted:    sparlAllExample/target/classes/dev.properties
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git push
+fatal: unable to access 'https://github.com/Satishjis256/PHP-MVC-ZF-like.git/': Could not resolve host: github.com
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
+$ git push
+Enumerating objects: 38, done.
+Counting objects: 100% (38/38), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (37/37), 23.27 KiB | 595.00 KiB/s, done.
+Total 37 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Satishjis256/PHP-MVC-ZF-like.git
+   aa35c4a..99e8ff5  master -> master
+
+satish@DESKTOP-0N9C6SV MINGW64 /d/git_dir/PHP-MVC-ZF-like (master)
